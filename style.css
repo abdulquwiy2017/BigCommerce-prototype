@@ -1,0 +1,392 @@
+*,::after, ::before, a,  p, section, div, article, button {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+ 
+    cursor: pointer;
+
+    border: none;
+}
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+ul, li{
+        list-style: none;
+        margin:0;
+        
+}
+.demo a {
+    color: whitesmoke;
+}
+
+/*button demo*/
+    .demo{
+    padding : 2px;
+    background-color: blue;
+    color: white;
+}
+body{
+
+    font-style: normal;
+
+}
+#container{
+ width: 100%;
+}
+
+.first-section{
+    width: 100%;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: whitesmoke !important;
+}
+.first-section article {
+    width: 45%;
+    margin: 0;
+    padding: 0;
+    padding-top: 2em;
+}
+.first-section article  button {
+    font-size: 1em;
+    padding: 1em;
+    margin-right: 1em;
+}
+.enterprise {
+    font-size: 4em;
+    margin-bottom: 0.5em;
+}
+article img{
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: 0.5em solid blue;
+}
+.second-section {
+    color: whitesmoke;
+    text-align: center;
+    width: 100%;
+    padding: 1em;
+    margin: 0;
+    background-color: rgb(1, 1, 158);
+}
+.second-section a {
+    color: whitesmoke;
+}
+.third-section{
+    width: 100%;
+    background-color: black;
+    color: whitesmoke;
+    padding: 1em;
+    margin: 0;
+}
+.notification {
+    text-align: center;
+}
+.fourth-section {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 1fr;
+    justify-content: space-between;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.fourth-section article {
+    width: 80%;
+    margin: auto;
+    background-color: rgb(42, 41, 41);
+    text-align: left;
+    margin-bottom: 2em;
+    padding: 2em;
+
+}
+.bonus{
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    color: whitesmoke;
+    padding-top: 1em;
+    border-bottom: 3px solid aqua;
+    padding-bottom: 2em;
+}
+.affiliation-section {
+    background-color: black;
+    color: whitesmoke;
+    width: 100%;
+    text-align: center;
+    padding-top: 2em;
+}
+.ecommerce-text li {
+    list-style: disc;
+}
+.fifth-section{
+    background-color: black;
+    color: whitesmoke;
+    border-bottom: 3px solid aqua;
+    padding-bottom: 2em;
+}
+.proud{
+    padding-bottom: 1em;
+}
+.company-logo {
+    padding-bottom: 2em;
+}
+.ecommerce{
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+.bold{
+    font-weight: bold;
+}
+.space{
+    margin-bottom: 1em;
+}
+
+.let-go{
+    padding: 5px;
+    background-color: blue;
+    color: whitesmoke;
+    margin-top: 1em;
+}
+.sixth-section {
+    background-color: black;
+    color: whitesmoke;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    padding-top: 2em;
+}
+.service{
+    width: 90%;
+    margin: auto;
+}
+.service img {
+    width: 4em;
+    height: 4em;
+    border: none;
+    border-radius: 50%;
+    margin-top: 1em;
+}
+.seventh-section{
+    background-color: blue;
+    color: whitesmoke;
+    text-align: center;
+    padding: 1em;
+}
+.seventh-section button {
+    padding: 1em ;
+    margin-top: 1em;
+    color: whitesmoke;
+
+}
+.seventh-section button a{
+    color: black;
+    text-decoration: none;
+
+}
+.eight-section{
+    width: 100%;
+    color: black;
+    padding-top: 2em;
+    margin-bottom: 2em;
+}
+.eight-section .solution {
+    text-align: center;
+}
+.eight-section article{
+    width: 90%;
+    margin: auto;
+}
+.solution h2 {
+    font-weight: bold;
+}
+.card {
+    width: 90%;
+    margin: auto;
+    margin-top: 2em;
+    border-radius: 20px;
+    background-color: aqua;
+    color: black;
+    padding: 1em;
+}
+ .card img {
+    width: 4em;
+    height: 4em;
+    border: none;
+    border-radius: 50%;
+    margin-top: 1em;
+}
+.eight-section article ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    margin: 0;
+    padding: 0;
+}
+.card p {
+    margin-bottom: 1em;
+
+}
+footer{ background-color: black;
+    color: whitesmoke;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    padding: 1em;
+}
+.heading-footer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+}
+.product {
+
+    width: 100%;
+    margin: auto;
+    margin-top: 1em;
+}
+.serve{
+    margin-top: 2em;
+}
+
+/*SMALL MEDIA SCREEN*/
+@media (max-width:944px) {
+    .first-section{
+        display: block;
+        text-align: center;
+    }
+    .first-section article {
+        width: 100%;
+    }
+  
+}
+@media (max-width:800px) {
+    .fourth-section {
+        width: 100%;
+        display: block
+    }
+}
+
+/*HAMBURGER MENU*/
+header{
+    background-color: black;
+
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-list{
+    margin: 1em;
+}
+/**NAVIGATION GOVER PART */
+.hover-child{
+    display: none;
+   
+}
+.nav-list:hover  .hover-child{
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    position: fixed;
+    background-color: whitesmoke;
+    cursor: pointer;
+
+}
+.nav-list:hover .hover-child ul li {
+    margin: 5px 0;
+}
+.grey{
+    color: grey;
+    font-weight: 900;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bar{
+    width: 2em;
+    height: 0.3em;
+    background-color: whitesmoke;
+    margin: 5px 0; 
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.hamburger-menu{
+    display: none;
+    margin: 1em;
+}
+@media (max-width:799px) {
+
+    .nav-menu{
+        position: absolute;
+        display: block;
+        width: 100%;
+        gap: 0;
+        left: -100%;
+        margin-top: 50px;
+        text-align: center;
+        background-color: blue;
+        color: whitesmoke;
+        transition: 0.3s;
+    }
+    .nav-menu a {
+        color: whitesmoke;
+    }
+    .hamburger-menu{
+        display: block;
+    }
+    .hamburger-menu.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    .hamburger-menu.active .bar:nth-child(1) {
+        transform: translateY(10px) rotate(45deg);
+    }
+    .hamburger-menu.active .bar:nth-child(3) {
+        transform: translateY(-10px) rotate(-45deg);
+    }
+    .nav-menu.active {
+        left: 0;
+    }
+}
+.landing-page{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    justify-content: space-between;
+}
